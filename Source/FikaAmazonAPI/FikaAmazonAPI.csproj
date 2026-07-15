@@ -7,9 +7,12 @@
     <Product>CSharp Amazon Sp API</Product>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <LangVersion>8.0</LangVersion>
-    <Version>1.8.1</Version>
+    <!-- Fork patch: getItemOffersBatch/getListingOffersBatch top-level query-param serialization
+         (taken from upstream). AssemblyVersion stays 1.8.1 so consumers' assembly identity is
+         unchanged; FileVersion/Version distinguish the build. -->
+    <Version>1.8.1.1</Version>
     <AssemblyVersion>1.8.1</AssemblyVersion>
-    <FileVersion>1.8.1</FileVersion>
+    <FileVersion>1.8.1.1</FileVersion>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/abuzuhri/Amazon-SP-API-CSharp</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
